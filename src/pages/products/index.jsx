@@ -21,8 +21,8 @@ function ProductsPage() {
       <div className="box">
         {data.map((info) => (
           <div className="card" key={info.id}>
-            <h2>{info.title}</h2>
-            <p> {info.body} </p>
+            <h2>{info?.title}</h2>
+            <p> {info?.body} </p>
             <span className="spanBot">
               <Link to={`/products/${info.id}`}> View more</Link>
               <button className="myBtn" onClick={()=>delProduct(info.id)}>Delete</button>

@@ -1,0 +1,43 @@
+.box {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.box .card {
+  padding: 15px;
+  height: 260px;
+  width: 300px;
+  border: 1px solid springgreen;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 10px lightcyan;
+}
+.box .card:hover {
+  box-shadow: 0 0 10px lightcyan, 0 0 15px cadetblue;
+}
+
+.custom-link {
+  color: goldenrod;
+}
+
+.spanBot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.myBtn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.myBtn:hover {
+    background-color: lightcyan;
+}

@@ -1,0 +1,23 @@
+.footer .container{
+    padding: 20px 0;
+    color: #AAAAAA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .container ul li{
+    font-size: 20px;
+background-color: black;
+padding: 10px;
+}
+.footLink{
+    font-size: 18px;
+}
